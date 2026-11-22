@@ -1,16 +1,63 @@
-# React + Vite
+# 🌦️ WeatherNow
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive weather application built using **React** and **Tailwind CSS** that fetches real-time weather information for searched cities.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search weather by city name
+- Current temperature
+- Feels-like temperature
+- Humidity
+- Wind speed
+- Atmospheric pressure
+- Visibility
+- Loading and error handling
+- Responsive UI
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- Tailwind CSS
+- Open-Meteo API
+- HTML
 
-## Expanding the Oxlint configuration
+## 🌐 API Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+WeatherNow uses the free [Open-Meteo API](https://open-meteo.com/) for weather and geocoding data.
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd weathernow
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## 📌 Project Status
+
+Currently under development. More features and UI improvements may be added.
+
+## 👨‍💻 Author
+
+Built as a learning project while practicing React, API integration, and frontend development.
