@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './Components/Navbar.jsx'
 import Body from './Components/Body.jsx'
 import { useState } from 'react'
-import Render from './Components/render.jsx'
+import Render from './Components/Render.jsx'
 const App = (props) => {
   const [Loading,SetisLoading]=useState(false);
     const [data,setdata]=useState(null);
