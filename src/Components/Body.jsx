@@ -46,7 +46,7 @@ const Body = ({ SetisLoading,Loading,data,setdata,SetError}) => {
   
   
   return (
-    <div className='flex flex-col items-center rounded-b-2xl mx-auto gap-2 p-3 bg-[#1E293B] text-[#F8FAFC]'>
+    <div className='flex flex-col items-center rounded-b-2xl w-full md:w-[80%] mx-auto gap-2 p-3 bg-[#1E293B] text-[#F8FAFC]'>
       <input
       className='bg-[#FFFFFF] text-[#0F172A] p-4 border-2 rounded-2xl w-[80%]'
       type="text"
